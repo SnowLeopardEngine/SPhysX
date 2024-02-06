@@ -27,5 +27,5 @@ if (-not (Test-Path -Path (Join-Path $extractDirectory "Prebuilt"))) {
 if (-not (Test-Path -Path "Prebuilt")) {
     # copy prebuilt files
     Copy-Item -Path (Join-Path $extractDirectory "Prebuilt") -Destination "Prebuilt" -Recurse -Force
-    Write-Host "Finished cophying PhysX Prebuilt SDK to project root."
+    Write-Host "Finished copying PhysX Prebuilt SDK to project root."
 }
