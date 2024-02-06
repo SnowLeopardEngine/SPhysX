@@ -1,0 +1,12 @@
+# xmake
+.xmake/
+build/
+
+# VS Code
+.vscode/
+
+# Prebuilt files
+Prebuilt/
+
+# Temp prebuilt download files
+tmp/
